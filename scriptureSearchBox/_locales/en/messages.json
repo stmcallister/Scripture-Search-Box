@@ -1,0 +1,30 @@
+{
+	"extName": {
+		"message": "Scripture Search Box",
+		"description": "Extension name."
+	},
+	"extDesc": {
+		"message": "Search box for easily searching LDS scriptures",
+		"description": "Extension description."
+	},
+	"extTitle": {
+		"message": "Scripture Search Box",
+		"description": "Extension default"
+	},
+	"formTitle": {
+		"message": "Scripture Search",
+		"description": "Heading text on the search form."
+	},
+	"formButton": {
+		"message": "Search",
+		"description": "Label for search button."
+	},	
+	"language": {
+		"message": "eng",
+		"description": "Language value passed to lds.org"
+	},
+	"createRequest": {
+		"message": "js/createRequestEnglish.js",
+		"description": "JavaScript file to call to create search request"
+	}
+}

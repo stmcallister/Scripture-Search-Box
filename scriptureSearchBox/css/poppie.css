@@ -1,0 +1,30 @@
+body {
+    padding: 10px;
+    margin: 0;
+    min-width: 300px;
+	font-family: 'Sorts Mill Goudy', serif;
+}
+
+#extension {
+	width: 260px;
+}
+
+#icon {
+	width: 32px;
+	float: left;
+	margin-top: 9px;
+}
+
+#formBody {
+	width: 219px;
+	float: left;
+	margin-left: 9px;
+}
+
+#title {
+	font-weight: normal;
+}
+
+#searchBox {
+	width: 150px;
+}
