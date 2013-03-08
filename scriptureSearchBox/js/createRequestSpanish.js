@@ -19,6 +19,7 @@ poppie.createRequest = function(searchVal){
 
 		// get book
 		book = scriptMatch[1];
+
 		// get chapter
 		for(i=2; i < scriptMatch.length; i++){
 			if(!isNaN(parseInt(scriptMatch[i]))){
@@ -487,5 +488,7 @@ poppie.createRequest = function(searchVal){
 		// http://lds.org/scriptures/search?lang=eng&query=Holy+Ghost
 		scriptString = getTopicSearchLink(searchVal, lang);
 	}
+	// FOR DEBUGGING
+	alert("createRequestSpanish: " + scriptString);
 	return scriptString;
 }
