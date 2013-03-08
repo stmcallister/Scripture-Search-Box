@@ -1,0 +1,30 @@
+{
+	"extName": {
+		"message": "Escritura Search Box",
+		"description": "Extension name."
+	},
+	"extDesc": {
+		"message": "Caixa de pesquisa para facilmente procurar escrituras SUD",
+		"description": "Extension description."
+	},
+	"extTitle": {
+		"message": "Cuadro de búsqueda para buscar fácilmente LDS Escrituras",
+		"description": "Extension default"
+	},
+	"formTitle": {
+		"message": "Escritura Pesquisa",
+		"description": "Heading text on the search form."
+	},
+	"formButton": {
+		"message": "Pesquisar",
+		"description": "Label for search button."
+	},
+	"language": {
+		"message": "por",
+		"description": "Language value passed to lds.org"
+	},
+	"createRequest": {
+		"message": "js/createRequestPortuguese.js",
+		"description": "JavaScript file to call to create search request"
+	}
+}
