@@ -1,4 +1,4 @@
-Scripture-Search-Box
+Scripture Search Box
 ====================
 Scripture Search Box is a Google Chrome Extension that provides a search box in your browser to easily search the scriptures of The Church of Jesus Christ of Latter-day Saints found on scriptures.lds.org. You can enter a scripture reference, such as John 3:16, or a topic, such as love, into the search box and the extension will open the search results in a new tab.
 
