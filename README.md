@@ -2,11 +2,13 @@ Scripture-Search-Box
 ====================
 Scripture Search Box is a Google Chrome Extension that provides a search box in your browser to easily search the scriptures of The Church of Jesus Christ of Latter-day Saints found on scriptures.lds.org. You can enter a scripture reference, such as John 3:16, or a topic, such as love, into the search box and the extension will open the search results in a new tab.
 
-v. 0.3.16 -- This version will search the King James Version of the Bible, including the Old Testament and New Testament, The Book of Mormon, Doctrine & Covenants, and The Pearl of Great Price.
+v. 1.0 - Fixed an issue where the links to scriptures wasn't taking you to the highlighted verse.
+
+v. 0.5 -- Now supporting searches in Portuguese! As long as you are running Chrome in a Portuguese locale you will be able to use the Scripture Search Box extension to search the Portuguese scriptures on scriptures.lds.org. The site only has The Book of Mormon, Doctrine & Covenants, and The Pearl of Great Price available in Portuguese, so the extension will only be able to search those books.
 
 v. 0.4.3 -- Now supporting searches in Spanish! If you are running Chrome in a Spanish speaking locale then Scripture Search Box will also run in Spanish, and search the Spanish version of the LDS Scriptures site! Support for other languages are planned in future releases.
 
-v. 0.5 -- Now supporting searches in Portuguese! As long as you are running Chrome in a Portuguese locale you will be able to use the Scripture Search Box extension to search the Portuguese scriptures on scriptures.lds.org. The site only has The Book of Mormon, Doctrine & Covenants, and The Pearl of Great Price available in Portuguese, so the extension will only be able to search those books.
+v. 0.3.16 -- This version will search the King James Version of the Bible, including the Old Testament and New Testament, The Book of Mormon, Doctrine & Covenants, and The Pearl of Great Price.
 
 LOCALIZATION The localization of this extension is handled through chrome.i18n. To add support for a new language, you will need to do the following:
 
