@@ -2,7 +2,7 @@ Scripture-Search-Box
 ====================
 Scripture Search Box is a Google Chrome Extension that provides a search box in your browser to easily search the scriptures of The Church of Jesus Christ of Latter-day Saints found on scriptures.lds.org. You can enter a scripture reference, such as John 3:16, or a topic, such as love, into the search box and the extension will open the search results in a new tab.
 
-v. 1.0 - Fixed an issue where the links to scriptures wasn't taking you to the highlighted verse.
+v. 1.0 - Fixed an issue where the link to a scripture wasn't taking you to the highlighted verse.
 
 v. 0.5 -- Now supporting searches in Portuguese! As long as you are running Chrome in a Portuguese locale you will be able to use the Scripture Search Box extension to search the Portuguese scriptures on scriptures.lds.org. The site only has The Book of Mormon, Doctrine & Covenants, and The Pearl of Great Price available in Portuguese, so the extension will only be able to search those books.
 
