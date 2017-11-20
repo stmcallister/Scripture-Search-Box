@@ -37,7 +37,7 @@ function getScriptureLink(vol, book, chap, verse, lang){
 	if(verse > 1)
 		id = verse-1;
 
-	return vol+"/"+book+"/"+chap+"."+verse+"?lang="+lang+"#"+id;
+	return vol+"/"+book+"/"+chap+"."+verse+"?lang="+lang+"#p"+id;
 }
 
 function getTopicSearchLink(searchString, lang){
@@ -59,12 +59,6 @@ function clickHandler(e) {
 	searchScriptures();
 }	
 
-/*
-			function pressHandler(e) {
-			  //searchByEnter(e);
-			  alert('pressHandler');
-			}	
-*/
 document.addEventListener('DOMContentLoaded', function () {
   document.getElementById('searchButton').addEventListener('click', clickHandler);
 });
