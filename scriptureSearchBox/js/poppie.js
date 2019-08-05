@@ -12,14 +12,14 @@ window.onload = function() {
 	document.getElementById('title').innerText = chrome.i18n.getMessage("formTitle");
 	document.getElementById('searchButton').value = chrome.i18n.getMessage("formButton");
 
-	// put focus on seach text box
+	// put focus on search text box
     document.getElementById('searchBox').focus();
 }
 
 function searchScriptures(){
 	var formVal = document.getElementById('searchBox').value;
 	var searchString = poppie.createRequest(formVal);
-	var scriptureUrl = 'http://lds.org/scriptures/' + searchString;
+	var scriptureUrl = 'https://www.churchofjesuschrist.org/' + searchString;
 	
 	// open a new tab and call the scripture search page
 	chrome.tabs.create({"url":scriptureUrl,"selected":true});
@@ -37,12 +37,13 @@ function getScriptureLink(vol, book, chap, verse, lang){
 	if(verse > 1)
 		id = verse-1;
 
-	return vol+"/"+book+"/"+chap+"."+verse+"?lang="+lang+"#p"+id;
+	return "study/scriptures/"+vol+"/"+book+"/"+chap+"."+verse+"?lang="+lang+"#p"+id;
 }
 
 function getTopicSearchLink(searchString, lang){
+	// search?lang=eng&query=peacemaker&facet=scriptures
 	searchString = searchString.replace(/\s/, '+');
-	return "search?lang="+lang+"&query="+ searchString;
+	return "search?lang="+lang+"&query="+ searchString + "&facet=scriptures";
 }
 
 

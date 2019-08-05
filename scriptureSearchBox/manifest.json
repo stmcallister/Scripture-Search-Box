@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "__MSG_extName__",
-	"version": "1.0",
+	"version": "2.1",
 	"description": "__MSG_extDesc__",
 	"icons": { "128": "books-icon-128.png" },
 	"browser_action": {
@@ -11,7 +11,7 @@
 	},
 	"permissions": [
 		"tabs",
-		"http://lds.org/"	
+		"https://www.churchofjesuschrist.org"	
 	],
 	"content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
 	"default_locale": "en"
